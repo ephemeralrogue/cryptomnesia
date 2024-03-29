@@ -10,7 +10,10 @@
  * the current version of your theme.
  */
 
-import { readFileSync, writeFileSync } from "fs";
+import {
+    readFileSync,
+    writeFileSync
+} from "fs";
 
 const targetVersion = process.env.npm_package_version;
 
